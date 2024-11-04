@@ -1,3 +1,10 @@
+# © 2024 AI Art Impact Lab. All Rights Reserved.
+# This code is proprietary and confidential. Unauthorized copying,
+# distribution, or modification of this code, via any medium, is strictly prohibited.
+# Written by: AI Art Impact Lab
+# Created on: AI Art Impact Lab
+# Description: This is code for wine recommendation application with TD. 
+
 import openai
 import speech_recognition as sr
 from pathlib import Path
