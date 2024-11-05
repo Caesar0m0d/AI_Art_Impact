@@ -24,7 +24,7 @@ osc_client_api_sommelier = SimpleUDPClient("127.0.0.1", 5001)
 osc_client_api_summary = SimpleUDPClient("127.0.0.1", 5002)
 
 # OpenAI API 키 설정
-api_key = "sk-_UGFDmwnP9PmNPBsYtJoilBo_hTQEWUe1Nlekh8q8OT3BlbkFJetTNA5d2ou0HIcYN9e5qYvvdKgVr_IkAqdDy8EcT4A"
+api_key = 
 
 # 응답 추적을 위한 전역 변수 초기화
 conversation_history = ""
