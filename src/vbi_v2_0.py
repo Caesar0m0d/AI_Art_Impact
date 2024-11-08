@@ -47,8 +47,19 @@ def stt_with_timeout(timeout=10):
     user_input = input("텍스트 입력: ")
     stop_listening.set()
     
+    """
+    listener_thread.join(timeout)
+    
+    # 스레드가 종료되지 않은 경우 강제로 종료 시도
+    if listener_thread.is_alive():
+        stop_listening.set()
+        print("Timeout 발생: 음성 입력을 받지 못했습니다.")
+
+    """
+    
     # STT 입력을 받았을 경우, 텍스트 입력을 무시하고 STT 결과를 반환
     return user_text if user_text else user_input
+    #return user_text if user_text else None
 
 # 텍스트를 음성으로 변환 (TTS)
 def tts(response_text, character="alloy"):
